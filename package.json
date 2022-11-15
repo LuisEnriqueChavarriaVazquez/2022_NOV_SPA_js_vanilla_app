@@ -4,7 +4,7 @@
   "description": "This app is simple example to show you how to develop a SPA without any framework.",
   "main": "webpack.config.js",
   "scripts": {
-    "build":"webpack --mode production",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
@@ -24,5 +24,8 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^6.2.1"
   }
 }
